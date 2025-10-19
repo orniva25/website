@@ -17,6 +17,14 @@ const ContactPage = () => {
         pageName="Contact Page"
         description="Don't hesitate to reach out. You can contact us at info@orniva.com"
       />
+      {/* Responsive call section */}
+
+      {/* Simple responsive contact line below the breadcrumb */}
+      <div className="max-w-3xl mx-20">
+        <p className="text-left md:text-left text-sm text-gray-600 dark:text-gray-300">
+          Contact us for any Queries: <a href="tel:9820488831" className="text-indigo-600 hover:underline">+91 - 9820488831</a>
+        </p>
+      </div>
 
       <Contact />
     </>
