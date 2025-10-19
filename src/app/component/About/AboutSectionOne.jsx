@@ -49,13 +49,13 @@ const AboutSectionOne = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
               <Image
-                src="/images/about/web_development_orniva.svg"
+                src="/images/about/web_development_okudex.svg"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/web_development_orniva.svg"
+                src="/images/about/web_development_okudex.svg"
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
