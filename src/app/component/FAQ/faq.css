@@ -1,0 +1,11 @@
+.faq-item {
+    overflow: hidden;
+  }
+  
+  .faq-answer {
+    display: none;
+  }
+  
+  .faq-header:hover .faq-answer {
+    display: block;
+  }

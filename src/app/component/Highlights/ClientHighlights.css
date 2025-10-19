@@ -1,0 +1,44 @@
+/* Custom scrollbar for the mobile view */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+    display: none;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  /* Transitions and smooth scroll */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  .group-hover .opacity-100 {
+    opacity: 1;
+  }
+  
+  button {
+    transition: opacity 0.3s ease;
+  }
+
+  /* Hide scrollbar on desktop but keep functionality */
+ .portfolio-slider {
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+  
+  .portfolio-slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+  }
+  
+  
