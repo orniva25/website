@@ -1,2 +1,2 @@
 # website
-One Stop Soluyion
+One Stop Solution
