@@ -19,9 +19,9 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <div className="container mx-auto">
-        <GoogleAd slot="9144121565" /> {/* Replace with your actual ad slot ID */}
-      </div>
+      {/* <div className="container mx-auto">
+        <GoogleAd slot="9144121565" /> 
+      </div> */}
       <AboutSectionOne />
       <Features />
       <ServicesSection />
