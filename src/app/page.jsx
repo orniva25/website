@@ -21,7 +21,7 @@ export default function Home() {
       <Hero />
       {/* <div className="container mx-auto">
         <GoogleAd slot="9144121565" /> 
-      </div> */}
+      </div>  */}
       <AboutSectionOne />
       <Features />
       <ServicesSection />
